@@ -1,6 +1,7 @@
 import random
 import undetected_chromedriver as uc
 from selenium import webdriver
+import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,6 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
+
+os.system("pip3 install selenium")
 
 names = ["jay", "jim", "roy", "axel", "billy", "charlie", "jax", "gina", "paul",
 "ringo", "ally", "nicky", "cam", "ari", "trudie", "cal", "carl", "lady", "lauren",
