@@ -30,10 +30,6 @@ nLength = 2
 num = ''.join(random.choice(numbers) for i in range(nLength))
 email = str(fName)+str(lName)+str(num)+'@[Catchall here]' #chooses random two numbers and the randomly chosen first and last name, then attaches to catchall
 
-jlength = 3
-jig = ''.join(random.choice(letters) for i in range(jlength))
-jigged = str(jig) + ' [Address here]' #jig, doesnt even work but doesnt matter
-
 select = Select(driver.find_element(By.XPATH, '//*[@id="1400662678121"]/label[8]/span/select')) #used for selecting value of exact address
 
 
