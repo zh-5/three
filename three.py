@@ -21,7 +21,7 @@ letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','
 
 link = 'https://www.three.co.uk/Support/Free_SIM/Order'
 
-s = Service("C:\\Users\\[User here]\Desktop\\drivre\\chromedriver.exe")
+s = Service("[Chromedriver path here]")
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=s,options=options)
 driver.get(link) #opens link (three)
