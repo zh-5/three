@@ -2,8 +2,7 @@
 three website automatic sim thingy majigy, just manual hcaptcha thats all
 
 
-so obviously you have your path of chrome driver on line 21, that u can change to whatever u want so lets say its on your desktop u can make a folder named watever
-n place ur chromedriver inside. then at the top of the folder u press copy path ![image](https://user-images.githubusercontent.com/107939634/184346589-4a8e267d-d804-4c97-a497-435d8c3d61fc.png)
+line 26 just replace [User] with your own system name, webdriver will be in folder regardless.
 
 line 31 u place ur catchall (along with the @)
 line 40 u put your postcode in with space, ![image](https://user-images.githubusercontent.com/107939634/184346939-ead09012-5a5c-4faa-9a8a-b089346f13aa.png)
